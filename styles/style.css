@@ -22,7 +22,7 @@
     
 }
    /* header section */
-   
+
 .header-title{
     font-size:32px;
 
@@ -53,4 +53,36 @@
     padding:10px 15px;
     border-radius: 20px;
 }
+    /* items style */
 
+.items-headline{
+   
+    text-align: center;
+}
+.item-img img{
+    width:309px;
+    height: 256;
+}
+.fa-star.filled{
+   color:orange;
+    font-size: 8px;
+}
+.fa-star.empty{
+    color:#aeaeae;
+    font-size: 8px;
+}
+.item-info{
+    font-size: 10px;
+}
+.all-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   margin-left: 90px;
+}
+#see-more{
+    text-align: right;
+    color: #E02C6DDE;
+    margin-right: 50px;
+    margin-top: 40px;
+
+}
