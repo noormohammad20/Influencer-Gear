@@ -1,0 +1,56 @@
+      /* font */
+   @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@400;500;600;700&family=Roboto+Mono&display=swap');
+   
+   /* common style */
+
+  body{
+       max-width: 1440px;
+       color:#aaaaaa;
+       font-family: 'Luxurious Roman', cursive;
+       font-family: 'Poppins', sans-serif;
+       font-family: 'Roboto Mono', monospace;
+   }
+  .container{
+      color:black;
+  }
+   /* container-title */
+
+.container-title{
+    color:#3A3A3A;
+    margin: 70px 100px;
+    font-weight: 700;
+    
+}
+   /* header section */
+   
+.header-title{
+    font-size:32px;
+
+}
+.header-details{
+    display: flex;
+    
+    
+}
+.header-peragraph{
+    font-size: 12px;
+    margin: 16px 0;
+}
+.h-first{
+    width:582;
+    margin:60px;
+    padding:30px;
+    
+}
+.h-second{
+    width:440px;
+    
+}
+.h-second> .header-img img{
+    width:100%;
+}
+.header-button{
+    padding:10px 15px;
+    border-radius: 20px;
+}
+
