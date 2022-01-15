@@ -50,9 +50,21 @@
     width:100%;
 }
 .header-button{
+    background-color:tomato;
     padding:10px 15px;
     border-radius: 20px;
+    letter-spacing: 4px;
+    border-style: none;
 }
+.header-button:hover{
+    background-color: #ec0b36;
+    background-size: 180px;
+    transition-delay:0.5s;
+    transform: rotate(3deg);
+    cursor: pointer;
+
+}
+
     /* items style */
 
 .items-headline{
