@@ -29,6 +29,9 @@
 }
 .header-details{
     display: flex;
+    align-items: center;
+   
+    
     
     
 }
@@ -42,12 +45,16 @@
     padding:30px;
     
 }
-.h-second{
+.h-second .header-img img{
     width:440px;
     
 }
+
 .h-second> .header-img img{
-    width:100%;
+    width:440px;
+    height: 414px;
+    margin-right: 40px;
+    
 }
 .header-button{
     background-color:tomato;
@@ -146,4 +153,58 @@ footer{
     text-align: center;
     font-family: poppins;
 
+}
+.icons{
+    letter-spacing: 10px;
+}
+
+   /* responsive */
+   /* for mobile */
+
+@media only screen and (max-width:688px) {
+    body{
+        width:100%;
+    }
+    .header-details{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .all-items{
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: auto;
+        margin-left: auto;
+    }
+.trail-section{
+    position: relative;
+    right: 180px;
+    width:360px;
+    height: 211px;
+}
+   .footer-container{
+       width:100%;
+      
+  }
+    
+}
+
+    /* for tablete divice */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .header-details{
+        width: 100%;
+}
+.all-items{
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    left: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.trail-section{
+    
+    position: relative;
+    right: 210px;
+    width:850px;
+}
 }
